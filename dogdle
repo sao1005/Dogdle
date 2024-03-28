@@ -1,0 +1,6 @@
+import csv
+import random
+with open('dog.csv', 'r') as file:
+    csv_reader = csv.DictReader(file)
+    data = [row for row in csv_reader]
+answer=random.randrange(201)
